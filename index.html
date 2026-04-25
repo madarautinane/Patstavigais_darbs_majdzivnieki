@@ -6,11 +6,8 @@
 
     <style>
         body {
-            margin: 0;
-             background-color: #d3d3d3;
-            font-family: Arial, sans-serif;
-
-              .menu {
+         
+  .menu {
             display: flex;
             justify-content: center;
             background-color: #333;
@@ -20,19 +17,39 @@
             color: white;
             padding: 14px 20px;
             text-decoration: none;
-            display: block;
         }
 
         .menu a:hover {
             background-color: #575757;
         }
 
-        .center-text {
-            height: calc(100vh - 70px);
+        .title {
+            text-align: center;
+            font-size: 40px;
+            margin: 30px 0;
+        }
+
+        .sections {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 50px;
+            width: 100%;
+        }
+
+        .box {
+            flex: 1;
+            background-color: white;
+            text-align: center;
+            padding: 60px 10px;
+            font-size: 20px;
+            border: 1px solid #ccc;
+        }
+
+  
+        .full-section {
+            margin: 20px;
+            padding: 60px;
+            background-color: white;
+            text-align: center;
+            font-size: 24px;
         }
     </style>
 </head>
@@ -45,7 +62,6 @@
         <a href="#">Kontakti</a>
     </div>
 
-    <div class="center-text">
-        Mājdzīvnieki
+    <div class="title">
+        Mājzīvnieki
     </div>
-
