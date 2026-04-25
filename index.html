@@ -4,58 +4,59 @@
     <meta charset="UTF-8">
     <title>Mājdzīvnieki</title>
 
-        
-    <style>
+         <style>
         body {
             margin: 0;
-            background-color: #d3d3d3;
             font-family: Arial, sans-serif;
+            background-color: #d3d3d3;
         }
 
-        .menu {
+      
+        .navbar {
             display: flex;
-            align-items: center;
+            justify-content: center;
+            gap: 40px;
             padding: 20px;
-            background-color: #333;
+            background-color: #b0b0b0;
         }
 
-        .menu a {
-            color: white;
+        .navbar a {
             text-decoration: none;
+            color: black;
             font-size: 18px;
+            font-weight: bold;
         }
 
-        /* Kreisā puse */
-        .left {
-            margin-right: auto;
+        .navbar a:hover {
+            text-decoration: underline;
         }
 
-        /* Vidus sadaļas */
-        .center a {
-            margin: 0 20px;
-        }
-
-        /* Labā puse */
-        .right {
-            margin-left: auto;
+      
+        .title {
+            position: absolute;
+            top: 40%; 
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 36px;
+            font-weight: bold;
         }
     </style>
 </head>
-
 <body>
 
-    <div class="menu">
-        <a href="#" class="left">Sākums</a>
-
-        <div class="center">
-            <a href="#">Suņi</a>
-            <a href="#">Kaķi</a>
-        </div>
-
-        <a href="#" class="right">Kontakti</a>
+    <div class="navbar">
+        <a href="#">Sākums</a>
+        <a href="#">Suņi</a>
+        <a href="#">Kaķi</a>
+        <a href="#">Patversmes</a>
     </div>
 
-</body>
-</html>
+    <div class="title">Mājdzīvnieki</div>
 
-      
+</body>
+</html>   
+  
+    
+     
+
+    
